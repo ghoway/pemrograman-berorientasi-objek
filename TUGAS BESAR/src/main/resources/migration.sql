@@ -1,3 +1,6 @@
+CREATE DATABASE IF NOT EXISTS tb_pbo;
+USE tb_pbo;
+
 -- Tabel untuk menyimpan data siswa/mahasiswa
 CREATE TABLE IF NOT EXISTS students (
     id INT AUTO_INCREMENT PRIMARY KEY,
